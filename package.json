@@ -1,21 +1,25 @@
 {
   "name": "capsoneapp",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "react-native run-android"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "expo": "~53.0.11",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^7.1.11",
+    "@react-navigation/stack": "^7.3.4",
+    "expo": "^53.0.11",
+    "expo-splash-screen": "~0.30.10",
+    "expo-sqlite": "~15.2.14",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "^0.79.3"
+  }
 }
