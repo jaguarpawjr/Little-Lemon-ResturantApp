@@ -29,7 +29,7 @@ export default function OnboardingScreen() {
     try {
       const user = { firstName, lastName };
       await AsyncStorage.setItem('user', JSON.stringify(user));
-      navigation.replace('ProfileScreen');
+      navigation.replace('Home');
     } catch (error) {
       setError('An error occurred while saving your information');
     }
